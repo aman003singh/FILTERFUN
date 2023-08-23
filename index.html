@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FilterFun</title>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h2>FilterFun</h2>
+    <p>
+      Welcome, to FilterFun Enjoy the fun of exploring unique filters and make
+      your photos insta ready!! :)
+    </p>
+    <hr
+      style="background-color: rgb(255, 255, 255); border-end-end-radius: 14px"
+    />
+
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+
+    <p>
+      Load image:
+      <input
+        type="file"
+        multiple="false"
+        accept="image/*"
+        onchange="upload()"
+        id="finput"
+      />
+    </p>
+    <p>
+      Choose Filter:
+      <input
+        type="button"
+        value="Grayscale"
+        onclick="doGray()"
+        class="buttons"
+      />
+      <input
+        type="button"
+        value="filter2"
+        onclick="filter2()"
+        class="buttons"
+      />
+      <input
+        type="button"
+        value="filter3"
+        onclick="filter3()"
+        class="buttons"
+      />
+      <input
+        type="button"
+        value="filter4"
+        onclick="filter4()"
+        class="buttons"
+      />
+      <input
+        type="button"
+        value="filter5"
+        onclick="filter5()"
+        class="buttons"
+      />
+      <input
+        type="button"
+        value="filter6"
+        onclick="filter6()"
+        class="buttons"
+      />
+    </p>
+    <p>
+      <input
+        type="button"
+        value="Clear Screen"
+        onclick="clearCanvas()"
+        id="clear"
+      />
+    </p>
+  </body>
+</html>

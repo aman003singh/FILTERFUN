@@ -1,0 +1,52 @@
+canvas {
+  width: 47vw;
+  height: 50vh;
+  background-color: rgba(154, 154, 154, 0.605);
+}
+
+#canvas1 {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+
+}
+
+#canvas2 {
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+
+}
+
+body {
+  /* background-color: black; */
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  background: radial-gradient(circle at 100%, #000000, #000000 50%, #fff831 75%, #000000 75%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: larger;
+  font-weight: 700;
+
+}
+
+.buttons {
+  background-color: black;
+  border: 2px dashed white;
+  border-radius: 30px;
+  color: white;
+  padding: 1vh;
+  margin: 0.5vh;
+}
+
+#clear {
+  padding: 0.5vh;
+  width: 30vw;
+  background-image: linear-gradient(90deg,
+      rgba(253, 185, 25, 0.9),
+      rgba(234, 251, 83, 0.839));
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px;
+}
